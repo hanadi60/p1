@@ -1,0 +1,173 @@
+/* general rules*/
+.body{
+background-color: #E8EBEE;
+
+
+}
+
+/* Members List */
+
+ #members{
+			display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+ }
+    #members li {
+		flex: 1 0 40%; /* Adjust the width of each item */
+        margin-top: 10px;
+		margin-right:20px;
+		margin-left:20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 22px;
+        color: #ffff;
+    }
+
+/* start logn form*/
+.login{
+width: 300px ;
+margin: 100px auto;
+
+}
+
+.login input{
+margin-bottom: 10px;
+
+}
+.login .form-control{
+
+	background-color: #E5E5E5;
+	position: relative;
+	text-align:right;
+}
+.login .btn{
+
+	background-color: #008dde;
+}
+/*  end of login*/
+
+
+.gallery .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+	
+}
+
+.gallery .box-container .box {
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+	transition: transform 0.05s ease;
+}
+
+.gallery .box-container .box:hover img {
+	 transform: rotate(45deg); /* Rotate the image 360 degrees on hover */
+}
+
+.gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* astric*/
+.ASTRIC {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+}
+
+
+/* start logn form*/
+.login{
+width: 300px ;
+margin: 100px auto;
+
+}
+.login input{
+margin-bottom: 10px;
+text-align:right;
+
+}
+.login .form-control{
+
+	background-color: #E5E5E5;
+	position: relative;
+	text-align:right;
+	padding-top:20px;
+}
+.login .btn{
+
+	background-color: #008dde;
+}
+/* reserve */
+
+
+.order .row {
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    gap: 2rem;
+	 text-align: right;
+	  direction: rtl;
+}
+
+.order .row form {
+    flex: 1 1 40rem;
+    border: .1rem solid #cd52bd;
+    box-shadow: 0 .5rem 1rem #0000001a;
+    padding: 2rem;
+	align-items:right;
+}
+
+.order .row form h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #cd52bd;
+    padding-bottom: 1rem;
+}
+
+.order .row form .inputBox input {
+    width: 70%;
+    margin: 1rem 0;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color: #666;
+    border: .1rem solid #aaa;
+    text-transform: none;
+	text-align:right
+}
+
+
+
+.order .row form .inputBox label {
+    color: #cd52bd;
+    font-size: 2rem;
+	text-align:right
+	
+}
+
+
+.social-icons{
+padding-left: 600px;
+padding-top: 30px;
+}
+
+ .social-icons a {
+            color: #tealgreen;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 34px;
+
+        }
+        .social-icons a:hover {
+            color: #ddd;
+        }
+
