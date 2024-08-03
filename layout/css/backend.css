@@ -160,14 +160,14 @@ padding-left: 600px;
 padding-top: 30px;
 }
 
- .social-icons a {
+.social-icons a {
             color: #tealgreen;
             margin: 0 10px;
             text-decoration: none;
             font-size: 34px;
 
         }
-        .social-icons a:hover {
+.social-icons a:hover {
             color: #ddd;
         }
 
